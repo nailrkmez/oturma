@@ -1,0 +1,61 @@
+name: aether_x
+description: "AETHER-X: Self-Aware Bio-Symbiotic Environment"
+publish_to: 'none'
+version: 4.0.0+nebula
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- CORE INTELLIGENCE (Layer 1) ---
+  flutter_riverpod: ^2.6.1
+  flutter_rust_bridge: ^2.0.0
+  
+  # --- NEURAL DYNAMIC PERSONALITY (Layer 2) ---
+  isar: ^3.1.0
+  isar_flutter_libs: ^3.1.0
+  path_provider: ^2.1.2
+  shared_preferences: ^2.5.4
+  
+  # --- MULTI-MODAL SENSES (Layer 3) ---
+  sensors_plus: ^7.0.0
+  health: ^13.2.1
+  camera: ^0.11.3
+  record: ^6.1.2
+  connectivity_plus: ^7.0.0
+  google_generative_ai: ^0.4.7
+  permission_handler: ^12.0.1
+  
+  # --- IMMORTALITY PROTOCOL (Layer 4) ---
+  workmanager: ^0.9.0
+  flutter_background_service: ^5.0.0
+  
+  # --- UI & FEATURES ---
+  flutter_local_notifications: ^19.5.0
+  timezone: ^0.10.1
+  speech_to_text: ^7.3.0
+  flutter_animate: ^4.5.0
+  google_fonts: ^6.2.1
+  provider: ^6.1.2
+  fl_chart: ^1.1.1
+  intl: ^0.20.2
+  tflite_flutter: ^0.12.1
+  uuid: ^4.3.3
+  confetti: ^0.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.13
+  isar_generator: ^3.1.0
+  rust_in_flutter: ^4.12.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/
+    - assets/images/
